@@ -1,5 +1,5 @@
 FROM centos
-RUN yum install - y nginx 
+RUN yum install nginx 
 RUN install -y mssql-server
 RUN install -y curl
 RUN install iputils
